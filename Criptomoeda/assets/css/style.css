@@ -1,0 +1,227 @@
+/* Estilos Cadastro de Transações */
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    width: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="reset"] {
+    background-color: #6c757d;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    opacity: 0.9;
+}
+
+footer {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #f8f9fa;
+    text-align: center;
+}
+/* Estilos Cadastro de Criptomoeda */
+.cadastro-criptomoeda .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cadastro-criptomoeda fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.cadastro-criptomoeda legend {
+    font-weight: bold;
+}
+
+.cadastro-criptomoeda label {
+    display: block;
+    margin-top: 10px;
+}
+
+.cadastro-criptomoeda input, .cadastro-criptomoeda select, .cadastro-criptomoeda textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.cadastro-criptomoeda input[type="submit"], .cadastro-criptomoeda input[type="reset"] {
+    width: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.cadastro-criptomoeda input[type="reset"] {
+    background-color: #6c757d;
+}
+
+.cadastro-criptomoeda input[type="submit"]:hover, .cadastro-criptomoeda input[type="reset"]:hover {
+    opacity: 0.9;
+}
+/* Estilos Relatório */
+.relatorio .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.relatorio table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.relatorio th, .relatorio td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.relatorio th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+/* Estilos Contato */
+.contato .container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.contato legend {
+    font-weight: bold;
+}
+
+.contato label {
+    display: block;
+    margin-top: 10px;
+}
+
+.contato input, .contato select, .contato textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.contato input[type="submit"], .contato input[type="reset"] {
+    width: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.contato input[type="reset"] {
+    background-color: #6c757d;
+}
+
+.contato input[type="submit"]:hover, .contato input[type="reset"]:hover {
+    opacity: 0.9;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+form {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+form legend {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form input[type="date"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"],
+form input[type="reset"],
+form button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+}
